@@ -11,16 +11,18 @@
             <h1>PINBALL WORLD</h1>
         </header>
         <div class="container">
-            <nav class="game-list">
+            <!-- Nav Element -->
+            <nav id="game-list">
                 <!-- Add the list of games here! -->
             </nav>
-            
+            <!-- Game Details -->
             <section class="game-details">
                 <!-- All the details of the games go in these elements! -->
                 <img id="detail-image" src=""/>
                 <div>
                 <h2 id="detail-title"></h2>
-                <h3>High Score: <span id="detail-high-score"></span></span></h3>
+                <h3>High Score: <span id="detail-high-score">0</span></h3>
+                <!-- Form -->
                 <form id="high-score-form">
                     <input id="score-input" type="text" />
                     <input type="submit" />
@@ -28,6 +30,6 @@
                 </div>
             </section>
         </div>
-        <script defer src="./src/index.js"></script>
+        <script defer src="./src/lectureindex.js"></script>
     </body>
 </html>
